@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+}
+header h1{
+margin: 0;
+height: 140px;;
+}
+div .logo-focihnho{
+    width: 55px;
+}
+
+/* Menu */
+
+nav{
+    text-align: center;
+    padding: 20px 0;
+    background-color: silver;
+    
+}
+
+nav li{
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+    margin-left: 20px;  
+
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: LightSkyBlue;
+}
+
+.fundo-verde{
+    background-color: LightSkyBlue  ;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.container .col{
+    width: 430px;
+}
+h1{
+    text-align: center;
+}
+
+.container p{
+
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5%;
+    align-items: center;
+}
+
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+
+}
+.produto figure img{
+    vertical-align: middle;
+}
+.texto-centralizado{
+    text-align: center;
+}
+.btn-patinha{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Serviços{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+form{
+    font-family: Arial;
+    size: 19px
+}
+label{
+    display: block;
+    margin-top: 5px;
+
+}
+input{
+    width: 76%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 76%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.maps{
+    text-align: right;
+    margin-top: 5.7%;
+}
+.col1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.cont{
+    padding-top: 10px;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid lightskyblue;
+    font-size: 15px 0;
+    padding: 12px;
+}
